@@ -6,18 +6,20 @@ import { MenuSection } from "@/components/menu-section"
 import { AboutSection } from "@/components/about-section"
 import { ContactSection } from "@/components/contact-section"
 import { GallerySection } from "@/components/gallery-section"
+import { FAQSection } from "@/components/faq-section"
 import { CTASection } from "@/components/cta-section"
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen flex-col bg-[#f8f0e3]">
+    <div className="flex min-h-screen flex-col bg-white">
       <Header />
       <main className="flex-1">
         <HeroSection />
         <ServicesSection />
         <MenuSection />
-        <GallerySection />
         <AboutSection />
+        <GallerySection />
+        <FAQSection />
         <ContactSection />
         <CTASection />
       </main>

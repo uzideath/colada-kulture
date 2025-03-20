@@ -26,24 +26,24 @@ const config = {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: {
-          DEFAULT: "#c87941",
-          foreground: "#ffffff",
+          DEFAULT: "#886C6D", // Muted mauve/brown
+          foreground: "#FFFFFF",
         },
         secondary: {
-          DEFAULT: "#6b4226",
-          foreground: "#ffffff",
+          DEFAULT: "#626060", // Dark gray
+          foreground: "#FFFFFF",
+        },
+        accent: {
+          DEFAULT: "#A08888", // Light mauve/taupe
+          foreground: "#000000",
         },
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
           foreground: "hsl(var(--destructive-foreground))",
         },
         muted: {
-          DEFAULT: "hsl(var(--muted))",
-          foreground: "hsl(var(--muted-foreground))",
-        },
-        accent: {
-          DEFAULT: "hsl(var(--accent))",
-          foreground: "hsl(var(--accent-foreground))",
+          DEFAULT: "#F5F5F5", // Light gray (slightly off-white)
+          foreground: "#626060", // Dark gray
         },
         popover: {
           DEFAULT: "hsl(var(--popover))",
@@ -79,4 +79,3 @@ const config = {
 } satisfies Config
 
 export default config
-
