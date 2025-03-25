@@ -1,5 +1,7 @@
-import Image from "next/image"
+"use client"
+import coffee from '@/public/coffee-girl.json'
 import { Button } from "@/components/ui/button"
+import { Lottie } from "@/lib/lottie"
 
 export function AboutSection() {
   return (
@@ -28,12 +30,7 @@ export function AboutSection() {
             </div>
           </div>
           <div className="relative aspect-video overflow-hidden rounded-xl lg:aspect-square">
-            <Image
-              src="/placeholder.svg?height=600&width=600"
-              alt="Our coffee cart team in action"
-              fill
-              className="object-cover"
-            />
+            <Lottie animationData={coffee} loop={true} />
           </div>
         </div>
       </div>

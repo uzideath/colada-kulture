@@ -23,7 +23,7 @@ export function HeroSection() {
         </div>
         <div className="relative aspect-video overflow-hidden rounded-xl lg:aspect-square">
           <Image
-            src="/placeholder.svg?height=600&width=600"
+            src="/cart.png"
             alt="Coffee cart service at an outdoor event"
             fill
             className="object-cover"
